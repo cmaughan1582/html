@@ -1,0 +1,25 @@
+body{
+    background-image: url("background.jpg");
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+table{
+    border: solid;
+    text-align: center;
+}
+img:hover{
+    display: none;
+}
+a:visited{
+    color: red;
+}
+th:first-of-type{
+    vertical-align: top;
+    color: white;
+}
+td:nth-child(even){
+    font-weight: bold;
+}
